@@ -25,7 +25,6 @@ spec:
     spec:
       hostNetwork: true
       terminationGracePeriodSeconds: 300
-      serviceAccountName: nginx-ingress-serviceaccount
       containers:
         - name: nginx-ingress-controller
           image: k8s.gcr.io/ingress-nginx/controller # 최신 이미지로 변경
