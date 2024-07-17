@@ -5,3 +5,5 @@ controlPlaneEndpoint: "10.0.0.4:6443"
 apiServer:
   certSANs:
     - "10.0.0.4"
+networking:
+  podSubnet: "192.168.0.0/16" # Calico를 위한 Pod 네트워크 CIDR
