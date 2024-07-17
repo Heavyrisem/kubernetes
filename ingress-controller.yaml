@@ -27,7 +27,7 @@ spec:
       terminationGracePeriodSeconds: 300
       containers:
         - name: nginx-ingress-controller
-          image: k8s.gcr.io/ingress-nginx/controller # 최신 이미지로 변경
+          image: asia.gcr.io/k8s-artifacts-prod/ingress-nginx/controller:v1.7.0 # 최신 이미지로 변경
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
