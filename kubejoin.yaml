@@ -5,7 +5,7 @@ nodeRegistration:
     cloud-provider: external
 discovery:
   bootstrapToken:
-    apiServerEndpoint:
-    token:
+    apiServerEndpoint: 10.0.0.4:6443
+    token: 51pa0p.bgel795xat9znoy5
     caCertHashes:
-      -
+      - sha256:33eef733e2400f9a71ed2a23b311182a42256480071132bf3692311a7c9664b2
